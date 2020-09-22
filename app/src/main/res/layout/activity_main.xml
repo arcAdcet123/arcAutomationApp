@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout2"
         android:layout_width="411dp"
         android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,4 +35,27 @@
             android:text="@string/tab_3" />
 
     </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/BUTTON_ON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="ON"
+        app:layout_constraintBottom_toBottomOf="@+id/BUTTON_OFF"
+        app:layout_constraintEnd_toStartOf="@+id/BUTTON_OFF"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BUTTON_OFF"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/BUTTON_OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:text="OFF"
+        app:layout_constraintBottom_toTopOf="@+id/tabLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
