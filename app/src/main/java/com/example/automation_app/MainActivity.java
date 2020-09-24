@@ -6,8 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     Button on,off;
@@ -17,13 +22,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         on=findViewById(R.id.BUTTON_ON);
         off=findViewById(R.id.BUTTON_OFF);
-
+        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myRef = database.getReference("STATUS_ON");
-                myRef.setValue(1);
+                String email = user.getEmail();
+                int MACID=1234;
+                String uid = user.getUid();
+                DatabaseReference myRef = database.getReference(uid);
+                myRef.child("EMAIL").setValue(email);
+                myRef.child("MAC iD").setValue(MACID);
+                myRef.child("WiFi name").setValue("Mark");
             }
         });
 
