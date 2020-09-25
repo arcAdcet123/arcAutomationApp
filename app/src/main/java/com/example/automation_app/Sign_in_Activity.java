@@ -34,21 +34,25 @@ public class Sign_in_Activity extends AppCompatActivity implements GoogleApiClie
     private SignInButton signInButton;
     private GoogleApiClient googleApiClient;
     private static final int RC_SIGN_IN = 1;
-    String name,email;
-    String idToken;
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
+
+    String name,email;
+    String idToken;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in_);
+
+
         firebaseAuth=com.google.firebase.auth.FirebaseAuth.getInstance();
+
         //this is where we start the Auth state Listener to listen for whether the user is signed in or not
         authStateListener= new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                //get signed-in uset
+                //get signed-in user
                 FirebaseUser user=firebaseAuth.getCurrentUser();
 
                 //if user is signed in ,call method to save user details

@@ -52,16 +52,28 @@
         "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_hall.xml.flat",
+        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_hall.xml"
+    },
+    {
         "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_bedroom.xml.flat",
+        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_bedroom.xml"
+    },
+    {
+        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_kitchen.xml.flat",
+        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_kitchen.xml"
     },
     {
         "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",

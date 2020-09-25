@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout2"
+        android:id="@+id/tabs"
         android:layout_width="411dp"
         android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:tabMode="fixed">
 
-        <com.google.android.material.tabs.TabItem
+    <!--    <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic_home_black_18dp"
@@ -32,30 +32,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic_home_black_18dp"
-            android:text="@string/tab_3" />
+            android:text="@string/tab_3" />  -->
 
     </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <Button
         android:id="@+id/BUTTON_ON"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
         android:text="ON"
-        app:layout_constraintBottom_toBottomOf="@+id/BUTTON_OFF"
-        app:layout_constraintEnd_toStartOf="@+id/BUTTON_OFF"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/BUTTON_OFF"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/BUTTON_OFF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
-        android:text="OFF"
-        app:layout_constraintBottom_toTopOf="@+id/tabLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/tabs"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pager" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

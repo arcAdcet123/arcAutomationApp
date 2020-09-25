@@ -4,4 +4,6 @@
     <string name="tab_2">Bedroom</string>
     <string name="tab_3">Kitchen</string>
     <string name="web_client_id">603780358384-55qlfsnjnlggm6hfmlnrt0hlc553p6r2.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
