@@ -1819,7 +1819,6 @@ id line3
 id linear
 id listMode
 id list_item
-id main_tabPager
 id masked
 id media_actions
 id message

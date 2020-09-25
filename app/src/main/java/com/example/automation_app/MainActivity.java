@@ -23,6 +23,10 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     Button on,off;
+    int[] tabIcons = {
+            R.drawable.ic_home_black_18dp
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[0]);
 
     }
 
