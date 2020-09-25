@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     Button on,off;
+    Button button;
     int[] tabIcons = {
             R.drawable.ic_home_black_18dp
     };
@@ -31,12 +33,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        on=findViewById(R.id.BUTTON_ON);
 
-        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        on.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+/*        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 String email = user.getEmail();
                 int MACID=1234;
@@ -44,9 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 DatabaseReference myRef = database.getReference(uid);
                 myRef.child("EMAIL").setValue(email);
                 myRef.child("MAC iD").setValue(MACID);
-                myRef.child("WiFi name").setValue("Mark");
-            }
-        });
+                myRef.child("WiFi name").setValue("Mark");*/
+
 
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -62,6 +59,16 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[0]);
         tabLayout.getTabAt(2).setIcon(tabIcons[0]);
+
+
+       /* button=(Button)findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Sign_in_Activity.class);
+                startActivity(intent);
+            }
+        });*/
 
     }
 
