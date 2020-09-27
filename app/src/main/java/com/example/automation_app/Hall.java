@@ -45,9 +45,9 @@ public class Hall extends Fragment   {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseCall("Hall_App1",1,"Off");
+               /* DatabaseCall("Hall_App1",1,"Off");
                 DatabaseCall("Hall_App2",2,"Off");
-                DatabaseCall("Hall_App3",3,"Off");
+                DatabaseCall("Hall_App3",3,"Off");*/
                 Intent intent=new Intent(getActivity(),Sign_in_Activity.class);
                 startActivity(intent);
             }
@@ -95,19 +95,15 @@ public class Hall extends Fragment   {
     public void DatabaseCall(String appID,int i,String status){
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        String email = user.getEmail();
+        String name = user.getDisplayName();
         String uid = user.getUid();
         DatabaseReference myRef = database.getReference(uid);
-        myRef.child("EMAIL").setValue(email);
+        myRef.child("EMAIL");
         if(appID.equals("Hall_App1"))
-            myRef.child("APPLIANCE").setValue("HALL_1_"+status);
+            myRef.child(name).child("Hall_App1").setValue(status);
         else if(appID=="Hall_App2")
-            myRef.child("APPLIANCE").setValue("HALL_2_"+status);
+            myRef.child(name).child("Hall_App2").setValue(status);
         else if(appID=="Hall_App3")
-            myRef.child("APPLIANCE").setValue("HALL_3_"+status);
-
-
+            myRef.child(name).child("Hall_App3").setValue(status);
      }
-
-
 }

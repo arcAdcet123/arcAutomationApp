@@ -90,20 +90,16 @@ public class Bedroom extends Fragment {
     public void DatabaseCall(String appID,int i,String status){
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        String email = user.getEmail();
+        String name = user.getDisplayName();
         String uid = user.getUid();
         DatabaseReference myRef = database.getReference(uid);
-        myRef.child("EMAIL").setValue(email);
+        myRef.child(name);
         if(appID.equals("Bedroom_App1"))
-            myRef.child("APPLIANCE").setValue("BEDROOM_1_"+status);
+            myRef.child(name).child("Bedroom_App1").setValue(status);
         else if(appID=="Bedroom_App2")
-            myRef.child("APPLIANCE").setValue("BEDROOM_2_"+status);
+            myRef.child(name).child("Bedroom_App2").setValue(status);
         else if(appID=="Bedroom_App3")
-            myRef.child("APPLIANCE").setValue("BEDROOM_3_"+status);
-
+            myRef.child(name).child("Bedroom_App3").setValue(status);
 
     }
-
-
-
 }

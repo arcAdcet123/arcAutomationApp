@@ -93,15 +93,15 @@ public class Kitchen extends Fragment {
     public void DatabaseCall(String appID,int i,String status) {
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        String email = user.getEmail();
+        String name = user.getDisplayName();
         String uid = user.getUid();
         DatabaseReference myRef = database.getReference(uid);
-        myRef.child("EMAIL").setValue(email);
+        myRef.child(name);
         if(appID.equals("Kitchen_App1"))
-            myRef.child("APPLIANCE").setValue("KITCHEN_1_"+status);
+            myRef.child(name).child("Kitchen_App1").setValue(status);
         else if(appID=="Kitchen_App2")
-            myRef.child("APPLIANCE").setValue("KITCHEN_2_"+status);
+            myRef.child(name).child("Kitchen_App2").setValue(status);
         else if(appID=="Kitchen_App3")
-            myRef.child("APPLIANCE").setValue("KITCHEN_3_"+status);
+            myRef.child(name).child("Kitchen_App3").setValue(status);
     }
 }
