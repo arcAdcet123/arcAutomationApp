@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2CBCB"
+    android:background="#616565"
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:tabMode="fixed">
 
-    <!--    <com.google.android.material.tabs.TabItem
+        <!--    <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic_home_black_18dp"
@@ -39,6 +39,10 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
