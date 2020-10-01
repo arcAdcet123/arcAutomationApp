@@ -12,6 +12,9 @@
         android:id="@+id/textView4"
         android:layout_width="195dp"
         android:layout_height="53dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="631dp"
         android:text="Hall"
         android:textAlignment="center"
         android:textColor="#603737"
@@ -19,10 +22,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
@@ -46,13 +47,12 @@
         android:layout_marginStart="258dp"
         android:layout_marginTop="174dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="476dp"
+        android:layout_marginBottom="475dp"
         android:background="@drawable/rectangle_27"
         android:textOff="Device OFF"
         android:textOn="Device NO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
