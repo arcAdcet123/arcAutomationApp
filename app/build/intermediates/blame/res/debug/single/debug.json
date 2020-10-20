@@ -1,138 +1,146 @@
 [
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_asset2mdpi.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/asset2mdpi.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_component_7__1.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/component_7__1.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_ic_home_black_18dp.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/ic_home_black_18dp.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_hall.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\layout\\fragment_hall.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_asset2mdpi.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable\\asset2mdpi.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\layout\\activity_sign_in_.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_hall.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_hall.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_automate.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-xxhdpi\\automate.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ellipse_1.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/ellipse_1.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_kitchen.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\layout\\fragment_kitchen.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_bedroom.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_bedroom.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stay_primary_landscape_black_24dp.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable\\ic_stay_primary_landscape_black_24dp.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_component_1__1.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/component_1__1.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_group_1.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/group_1.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_asset_2mdpi.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/asset_2mdpi.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rectangle_27.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\rectangle_27.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_ic_wifi_black_24dp.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/ic_wifi_black_24dp.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_group_1.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\group_1.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_ic_stay_primary_landscape_black_24dp.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/ic_stay_primary_landscape_black_24dp.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_component_7__1.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\component_7__1.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_activity_sign_in_.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/activity_sign_in_.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_a_r_c.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-xxhdpi\\a_r_c.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_asset_2mdpi.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\asset_2mdpi.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/drawable-hdpi_rectangle_27.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/drawable-hdpi/rectangle_27.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wifi_black_24dp.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable\\ic_wifi_black_24dp.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ellipse_1.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\ellipse_1.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_18dp.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable\\ic_home_black_18dp.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/layout_fragment_kitchen.xml.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/layout/fragment_kitchen.xml"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bedroom.xml.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\layout\\fragment_bedroom.xml"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/omkar/AndroidStudioProjects/arcAutomationApp/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_component_1__1.png.flat",
+        "source": "C:\\Users\\shiva\\AndroidStudioProjects\\arcAutomationApp\\app\\src\\main\\res\\drawable-hdpi\\component_1__1.png"
     }
 ]
