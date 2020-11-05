@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
@@ -31,7 +32,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class Sign_in_Activity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
     private static final String TAG = "Sign_in_Activity";
-    private SignInButton signInButton;
+    private ImageView signInButton;
     private GoogleApiClient googleApiClient;
     private static final int RC_SIGN_IN = 1;
     private FirebaseAuth firebaseAuth;
@@ -68,7 +69,7 @@ public class Sign_in_Activity extends AppCompatActivity implements GoogleApiClie
 
         GoogleSignInOptions gso=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.web_client_id)).requestEmail().build();
         googleApiClient=new GoogleApiClient.Builder(this).enableAutoManage(this,this).addApi(Auth.GOOGLE_SIGN_IN_API,gso).build();
-        signInButton=findViewById(R.id.sign_in_button);
+        signInButton= (ImageView) findViewById(R.id.imageView6);
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
