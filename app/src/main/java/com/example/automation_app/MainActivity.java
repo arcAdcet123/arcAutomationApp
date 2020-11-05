@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
@@ -25,6 +26,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     Button on,off;
     Button button;
+    PagerAdapter pagerAdapter;
     int[] tabIcons = {
             R.drawable.ic_home_black_18dp
     };
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new Kitchen(), "Bedroom");
         viewPager.setAdapter(adapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout =  findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
