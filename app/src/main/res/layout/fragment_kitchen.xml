@@ -4,25 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#616565"
+    android:background="#000000"
     tools:context=".Kitchen">
+
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="195dp"
         android:layout_height="53dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="591dp"
         android:text="Kitchen"
         android:textAlignment="center"
-        android:textColor="#603737"
+        android:textColor="#FAF6F6"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069" />
-
+        app:layout_constraintVertical_bias="0.067" />
 
     <Button
         android:id="@+id/button2"
@@ -49,7 +52,8 @@
         android:layout_marginBottom="476dp"
         android:background="@drawable/rectangle_27"
         android:textOff="Device OFF"
-        android:textOn="Device ON"
+        android:textOn="Device NO"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -66,7 +70,8 @@
         android:layout_marginBottom="347dp"
         android:background="@drawable/rectangle_27"
         android:textOff="Device OFF"
-        android:textOn="Device ON"
+        android:textOn="Device NO"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +87,8 @@
         android:layout_marginBottom="217dp"
         android:background="@drawable/rectangle_27"
         android:textOff="Device OFF"
-        android:textOn="Device ON"
+        android:textOn="Device NO"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="21dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -121,6 +127,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="APPLIANCE 1"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,6 +146,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="APPLIANCE 2"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -157,13 +165,46 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="APPLIANCE 3"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="571dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="117dp"
+        android:src="@drawable/a_r_c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="99dp"
+        android:src="@drawable/automate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
